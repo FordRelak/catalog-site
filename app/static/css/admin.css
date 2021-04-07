@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: url("../img/bg.jpg") repeat; }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.fullHeight {
+  height: 100vh; }
+
+.fullWidth {
+  width: 100vh; }
+
+.inline {
+  flex-direction: row; }
+
+.adminButton {
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 20px;
+  font-size: x-large;
+  border-radius: 20px;
+  margin: 100px;
+  width: 100px;
+  text-align: center; }
+
+.categoryList {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .categoryList .category {
+    margin: 20px;
+    display: flex; }
+    .categoryList .category input, .categoryList .category a {
+      border: 0;
+      text-decoration: none;
+      color: #c8e048;
+      background-color: #6e6e6e;
+      font-size: 23px;
+      margin: 0 10px 0 10px;
+      padding: 10px;
+      border-radius: 5px; }
+  .categoryList .red {
+    color: #ff6868 !important; }
+  .categoryList .yellow {
+    color: #ffce00; }
+
+.productList {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .productList .product {
+    display: flex;
+    align-items: center; }
+    .productList .product a {
+      text-decoration: none;
+      border: 0;
+      color: #c1c1c1;
+      background-color: #6e6e6e;
+      padding: 10px;
+      margin: 10px; }
+    .productList .product input {
+      text-decoration: none;
+      cursor: pointer;
+      padding: 10px;
+      margin: 10px;
+      color: red;
+      border-color: #ff6868; }
+
+/*# sourceMappingURL=admin.css.map */
